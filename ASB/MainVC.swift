@@ -14,7 +14,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
                   announcementsView: UIView!,
                   shopView: UIView!,
                   annPrevTV: AnnouncementPreviewTV!
-    //Constants:
+    //Constants: 
     private let utils:Utilities = Utilities(),
                 greenColor = UIColor(r: 38, g: 57, b: 30, a: 255),
                 goldColor = UIColor(r: 155, g: 122, b: 41, a: 255),
