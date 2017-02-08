@@ -18,8 +18,7 @@ class ASBMembers {
     private var memberArray:[ASBMember]! = []
     
     //Constants:
-    private let utils:Utilities = Utilities(),
-                alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".characters.map { String($0) }
+    private let utils:Utilities = Utilities()
     
     //Create ASB members here:
     init() {

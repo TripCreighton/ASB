@@ -21,8 +21,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
                 asbMembers = ASBMembers(),
                 memberViewWidth:CGFloat = 160,
                 memberViewHeight:CGFloat = 190,
-                pictureWidth:CGFloat = 105,
-                pictureHeight:CGFloat = 135
+                pictureWidth:CGFloat = 115,
+                pictureHeight:CGFloat = 145
     
     override func viewDidLoad() {
         super.viewDidLoad()
