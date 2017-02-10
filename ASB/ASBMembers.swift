@@ -20,7 +20,7 @@ class ASBMembers {
     //Constants:
     private let utils:Utilities = Utilities()
     
-    //Create ASB members here:
+    //Create ASB members here: 
     init() {
         createNewMember(name: "a", job: "Test", image: UIImage(named: "FruitBowl"))
         createNewMember(name: "b", job: "Test", image: #imageLiteral(resourceName: "FruitBowl"))
