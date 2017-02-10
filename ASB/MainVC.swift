@@ -48,22 +48,22 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         shopView.layer.borderWidth = 3
         shopView.layer.cornerRadius = 6
         shopView.addGestureRecognizer(globalTap)
-        shopView.tag = 0
+        shopView.tag = 1
         
         //Announcements:
         announcementsView.layer.borderColor = greenColor?.cgColor
         announcementsView.layer.borderWidth = 3
         announcementsView.layer.cornerRadius = 6
         announcementsView.addGestureRecognizer(globalTap)
-        announcementsView.tag = 1
+        announcementsView.tag = 2
     }
     
     func viewTapped(tap: UITapGestureRecognizer) {
         let tag = tap.view?.tag
-        if tag == 0 { // Shop view
-            
-        } else if tag == 1 { // Announcements
-            
+        if tag == 1 { // Shop   view
+            print("Shop")
+        } else if tag == 2 { // Announcements
+            print("Announcements")
         }
     }
     

@@ -22,7 +22,7 @@ class ASBMembers {
     
     //Create ASB members here:
     init() {
-        createNewMember(name: "a", job: "Test", image: #imageLiteral(resourceName: "FruitBowl"))
+        createNewMember(name: "a", job: "Test", image: UIImage(named: "FruitBowl"))
         createNewMember(name: "b", job: "Test", image: #imageLiteral(resourceName: "FruitBowl"))
         createNewMember(name: "c", job: "Test", image: #imageLiteral(resourceName: "FruitBowl"))
         createNewMember(name: "d", job: "Test", image: #imageLiteral(resourceName: "FruitBowl"))
